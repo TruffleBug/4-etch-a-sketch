@@ -1,0 +1,24 @@
+body {
+    margin: 20;
+    padding: 0;
+}
+
+#gridContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 920px;
+    height: 920px;
+    /* align-items: stretch; */
+}
+
+.box {
+    /* width: 57px; */
+    /* height: 20px; */
+    border: 1px solid black;
+    /* flex: 1; */
+    box-sizing: border-box;
+}
+
+button {
+    margin-bottom: 20px;
+}
